@@ -569,7 +569,7 @@ Auftragsbuch = '################################################################
                'Fehler in der Reihenfolge der IDs: bitte neues mit altem Dokument abgleichen, ob Zeilen verschwunden sind\n' \
                '##############################################################################################################\n\n\n'
 
-path = 'C:\\Users\\moebusd\\sciebo\\OHD\\Transkriptkorrektur\\Demo FU'
+path = '' # Pfad zu den ods-Dateien
 
 for file in os.listdir(path):
     if file.endswith('.ods'):
