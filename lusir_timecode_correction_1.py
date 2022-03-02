@@ -19,6 +19,7 @@ def lusir_timecode_correction_1(source, filename):
     from pandas import DataFrame
     from pyexcel_ods3 import save_data
     from collections import OrderedDict
+    from timecode_manipulation import timecode_median, timecode_median_multi, timecode_to_frames, frames_to_timecode
 
     logfile = ''
     file = pd.read_excel(source, engine="odf")
